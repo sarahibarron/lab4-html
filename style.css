@@ -1,0 +1,23 @@
+body {
+background-color: #f70d0d ;    
+}
+
+h1 {
+    color: #ddd8d8;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#nachospic {
+    width: 50px;
+    height: 50px;
+}
+
+#tacospic {
+    width: 50px;
+    height: 50px;
+}
+
+#margspic {
+    width: 50px;
+    height: 50px;
+}
