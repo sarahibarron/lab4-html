@@ -1,25 +1,23 @@
-console.log("Hello, world!")
+console.log("Hello there");
 
-
-let time = prompt('What is the time?')
-
-if (time <= 11) {
-    console.log('Good morning!')
-} else if (time <= 17) {
-    console.log('It is less than 17')
-} else if (time <= 24) {
-    console.log('Is is not yet midnight')
-} else {
-    console.log("that isn't a real time!!!!")
+function greet() {
+  let username = prompt("What should I call you?");
+  document.write("Hello " + username);
 }
 
-let username = prompt('What is your name??')
+function askTime() {
+  let time = prompt("What hour is it? (0-23)");
+  let message;
 
-console.log("hello " + username)
+  if (time <= 11) {
+    message = "Good morning";
+  } else if (time <= 17) {
+    message = "Good afternoon";
+  } else if (time < 24) {
+    message = "Good evening";
+  } else {
+    message = "That's not a time!!!";
+  }
 
-
- 
-// data types
-let number = 25
-let string = "25"
-let boolean = false
+  document.write(message);
+}
