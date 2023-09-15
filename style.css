@@ -1,25 +1,36 @@
 body {
-background-color: #f70d0d ;    
+background-image: url("background.png") ;    
 }
 
 h1 {
-    color: #ddd8d8;
-    font-family: Arial, Helvetica, sans-serif
+    color: #0f110c;
+    font-family: monospace;
+    text-align: center;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 8px #ffba08;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 #nachospic {
-    width: 50px;
-    height: 50px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #tacospic {
-    width: 50px;
-    height: 50px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #margspic {
-    width: 50px;
-    height: 50px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.ratingtaco {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 /* img {
